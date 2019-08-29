@@ -11,4 +11,4 @@ class Redirect(BaseHTTPRequestHandler):
        self.end_headers()
 
 print('sbfuysguyfgeuirguigbuie')
-HTTPServer(("", environ['PORT'], Redirect)).serve_forever()
+HTTPServer(("", 80), Redirect).serve_forever()
